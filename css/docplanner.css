@@ -175,7 +175,7 @@ body{
     color:#ababab;
     font-weight: 400;
 }
-section{
+.middle{
     width: 100%;
     margin:0 0 20px;
     background-color: #e5faf8;
@@ -270,4 +270,97 @@ section{
     position: absolute;
     top:58%;
     left:15%;
+}
+.end{
+    background-color: #fff;
+    display:block;
+}
+.header{
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem;
+}
+.header h1{
+    color:#00b39b;
+    font-family: 'Work Sans',Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    padding: 2rem 0;
+    font-size: xx-large;
+}
+.header p{
+    color: #747474;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 1em;
+}
+.card-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.card-content{
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.card-content:hover{
+    box-shadow: 0px 0px 10px 7px rgb(219 206 206 / 28%);
+}
+.card-table img {
+    opacity: .83;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.card-info h5{
+    color: #747474;
+    font-size: 1.3em ;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .3;
+}
+.card-info a{
+    background-color: #3d83df;
+}
+.join-us{
+    display: block;
+    text-align: center ;
+    margin: 2.5em 0;
+    padding: 6em;
+}
+.join-us h1{
+    color: #333333bb;
+    font-size: 2.5em;
+    font-family: 'Work Sans',Arial,sans-serif;
+    margin-bottom: .9em;
+}
+.join-us a {
+    padding: 13px;
+    font-size: .9em;
+    font-weight: 700;
+    background-color: #3d83df;
+}
+
+hr{
+    color:#ABABAB ;
+}
+.footer{
+    margin: 1.8em;
+    display: block;
+    text-align: center ;
+    color:#ABABAB ;
+    font-size: .9em;
+}
+/*it schould be a TAG but for now its like a span with hover effect*/
+.footer span{
+    color:#3d83df;
+}
+
+.footer span:hover{
+    text-decoration: underline;
 }
